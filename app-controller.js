@@ -1,5 +1,3 @@
-console.log('We are inside client.js');
-
 /* on page load  */
 window.onload = function() {
     const planet_id = document.getElementById("planetID").value
@@ -12,7 +10,7 @@ window.onload = function() {
             if (res.ok) {
                 return res.json();
             }
-            thrownewError('Request failed');
+            throw new Error('Request failed');
         }).catch(function(error) {
             console.log(error);
         })
@@ -21,8 +19,6 @@ window.onload = function() {
           //  document.getElementById('environment').innerHTML = ` Env - ${data.env}  `
         });
 };
-
-
 
 const btn = document.getElementById('submit');
 
@@ -37,7 +33,7 @@ function func() {
     fetch("/planet", {
             method: "POST",
             body: JSON.stringify({
-                id: document.getElementById("planetID").value
+                id: +document.getElementById("planetID").value
             }),
             headers: {
                 "Content-type": "application/json; charset=UTF-8"
@@ -47,9 +43,11 @@ function func() {
             if (res2.ok) {
                 return res2.json();
             }
-            thrownewError('Request failed.');
+
+            throw new Error('Request failed.');
         }).catch(function(error) {
-            alert("Ooops, We have 8 planets.\nSelect a number from 0 - 8")
+            alert("Ooops, We have 8 planets.\nSelect a number from 0 - 8");
+
             console.log(error);
         })
         .then(function(data) {
@@ -60,9 +58,7 @@ function func() {
             element.style.backgroundImage  = "url("+image+")"
 
             const planet_description = ` ${data.description} `
+
             document.getElementById('planetDescription').innerHTML = planet_description.replace(/(.{80})/g, "$1<br>");
-
-
         });
-
 }

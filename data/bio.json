@@ -1,0 +1,56 @@
+[
+  {
+    "base": "-",
+    "birthplace": "Githam City",
+    "fullname": "Jack Napier",
+    "id": "DC0003",
+    "name": "Joker",
+    "occupation": "Jester - a person employed to tell jokes and provide entertainment",
+    "publisher": "Arkham Asylum"
+  },
+  {
+    "base": "New Mexico",
+    "birthplace": "Ohio",
+    "fullname": "Bruce Banner",
+    "id": "MARVEL0003",
+    "name": "Hulk",
+    "occupation": "Nuclear Physicist",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "base": "-",
+    "birthplace": "Themyscira",
+    "fullname": "Diana Prince",
+    "id": "DC0002",
+    "name": "Wonder Woman",
+    "occupation": "Protector of Paradise Island; former Goddess of Truth",
+    "publisher": "DC Comics"
+  },
+  {
+    "base": "Batcave",
+    "birthplace": "Gotham County",
+    "fullname": "Bruce Wayne",
+    "id": "DC0001",
+    "name": "Batman",
+    "occupation": "Businessman",
+    "publisher": "DC Comics"
+  },
+  {
+    "base": "Titan",
+    "birthplace": "Titan",
+    "fullname": "Thanos",
+    "id": "MARVEL0002",
+    "name": "Thanos",
+    "occupation": "Conqueror",
+    "publisher": "Marvel Comics"
+  },
+  {
+    "base": "Seattle, Washington",
+    "birthplace": "New York",
+    "fullname": "Tony Stark",
+    "id": "MARVEL0001",
+    "name": "Ironman",
+    "occupation": "Inventor, Industrialist",
+    "publisher": "Marvel Comics"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "MARVEL0001",
+    "movies": "[{name=Avengers: Infinity War, year=2018}, {name=Iron Man 3, year=2013}, {name=Iron Man, year=2008}]"
+  },
+  {
+    "id": "DC0003",
+    "movies": "[{name=Joker, year=2021}, {name=Sucide Squad, year=2016}, {name=The Dark Knight, year=2008}]"
+  },
+  {
+    "id": "MARVEL0003",
+    "movies": "[{name=Hulk, year=2003}, {name=The Avengers, year=2012}, {name=THor: Ragnarok, year=2017}]"
+  },
+  {
+    "id": "DC0001",
+    "movies": "[{name=Zack Snyder's Justice League, year=2021}, {name=Batman v Superman: Dawn of Justice, year=2016}, {name=The Dark Knight Rises, year=2012}]"
+  },
+  {
+    "id": "MARVEL0002",
+    "movies": "[{name=Avengers: Endgame, year=2019}, {name=Guardians of the Galaxy, year=2014}, {name=The Avengers, year=2012}]"
+  },
+  {
+    "id": "DC0002",
+    "movies": "[{name=Wonder Woman 1984, year=2021}, {name=Wonder Woman, year=2017}, {name=Zack Snyder's Justice League, year=2021}]"
+  }
+]

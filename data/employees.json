@@ -1,0 +1,68 @@
+[
+  {
+    "doj": "2022-10-26",
+    "email": "riya.sharma@company.com",
+    "first_name": "Riya",
+    "id": 1,
+    "last_name": "Sharma",
+    "location": "{city=Bangalore, state=Karnataka, zipcode=560001, latitude=12.9716, longitude=77.5946}",
+    "mobilenumber": "+91 9876543210",
+    "project": "Mobile App Development",
+    "title": "Software Developer"
+  },
+  {
+    "doj": "2023-02-14",
+    "email": "vikas.kapoor@company.com",
+    "first_name": "Vikas",
+    "id": 2,
+    "last_name": "Kapoor",
+    "location": "{city=Mumbai, state=Maharashtra, zipcode=400005, latitude=19.076, longitude=72.8777}",
+    "mobilenumber": "+91 8765432190",
+    "project": "Cloud Infrastructure",
+    "title": "DevOps Engineer"
+  },
+  {
+    "doj": "2021-05-12",
+    "email": "aisha.rao@company.com",
+    "first_name": "Aisha",
+    "id": 3,
+    "last_name": "Rao",
+    "location": "{city=Hyderabad, state=Telangana, zipcode=500081, latitude=17.4168, longitude=78.4766}",
+    "mobilenumber": "+91 7654321089",
+    "project": "Data Analytics",
+    "title": "Data Scientist"
+  },
+  {
+    "doj": "2023-01-03",
+    "email": "mohit.singh@company.com",
+    "first_name": "Mohit",
+    "id": 4,
+    "last_name": "Singh",
+    "location": "{city=Delhi, state=Delhi NCT, zipcode=110001, latitude=28.6139, longitude=77.2088}",
+    "mobilenumber": "+91 6543210987",
+    "project": "CRM Development",
+    "title": "Full Stack Developer"
+  },
+  {
+    "doj": "2022-07-19",
+    "email": "priya.mehta@company.com",
+    "first_name": "Priya",
+    "id": 5,
+    "last_name": "Mehta",
+    "location": "{city=Chennai, state=Tamil Nadu, zipcode=600001, latitude=13.0827, longitude=80.2707}",
+    "mobilenumber": "+91 9876543201",
+    "project": "Web Development",
+    "title": "UI/UX Designer"
+  },
+  {
+    "doj": "2020-01-26",
+    "email": "jai.siddharth@company.com",
+    "first_name": "Siddharth",
+    "id": 6,
+    "last_name": "Jai",
+    "location": "{city=Hyderabad, state=Telangana, zipcode=500090, latitude=17.5187, longitude=78.6674}",
+    "mobilenumber": "+91 8745123690",
+    "project": "Mobile App Development",
+    "title": "DevOps Engineer"
+  }
+]

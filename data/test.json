@@ -1,0 +1,15 @@
+[
+  {
+    "id": 123,
+    "name": "sid"
+  },
+  {
+    "id": 2,
+    "name": "revathi"
+  },
+  {
+    "id": 456,
+    "name": "john",
+    "url": "https://raw.githubusercontent.com/sidd-harth/planets/main/images/geocentric/solar-system.png"
+  }
+]
