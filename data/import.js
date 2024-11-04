@@ -12,10 +12,10 @@ const datasets = [
 
 const client = new MongoUtil(
   {
-    uri: 'mongodb+srv://avjplmongodb:8V7EHcpmQTJWNgQa@kloud0.wwijl.mongodb.net/?retryWrites=true&w=majority&appName=Kloud0',
-    dbName: 'datasets',
-    username: 'avjplmongodb',
-    password: '8V7EHcpmQTJWNgQa',
+    uri: '',
+    dbName: '',
+    username: '',
+    password: '',
   }
 );
 
