@@ -4,7 +4,7 @@ const OS = require('os');
 const bodyParser = require('body-parser');
 const mongoose = require("mongoose");
 const app = express();
-const cors = require('cors')
+const cors = require('cors');
 
 
 app.use(bodyParser.json());
@@ -20,9 +20,9 @@ mongoose.connect(process.env.MONGO_URI, {
     if (err) {
         console.log("error!! " + err)
     } else {
-      //  console.log("MongoDB Connection Successful")
+       // console.log("MongoDB Connection Successful");
     }
-})
+});
 
 var Schema = mongoose.Schema;
 
@@ -34,9 +34,8 @@ var dataSchema = new Schema({
     velocity: String,
     distance: String
 });
+
 var planetModel = mongoose.model('planets', dataSchema);
-
-
 
 app.post('/planet',   function(req, res) {
    // console.log("Received Planet ID " + req.body.id)
@@ -55,7 +54,6 @@ app.post('/planet',   function(req, res) {
 app.get('/',   async (req, res) => {
     res.sendFile(path.join(__dirname, '/', 'index.html'));
 });
-
 
 app.get('/os',   function(req, res) {
     res.setHeader('Content-Type', 'application/json');
@@ -80,8 +78,7 @@ app.get('/ready',   function(req, res) {
 })
 
 app.listen(3000, () => {
-    console.log("Server successfully running on port - " +3000);
+    console.log("Server successfully running on port - " + 3000);
 })
-
 
 module.exports = app;

@@ -25,6 +25,7 @@ window.onload = function() {
 
 
 const btn = document.getElementById('submit');
+
 if (btn) {
     btn.addEventListener('click', func);
 }
@@ -61,7 +62,7 @@ function func() {
             const planet_description = ` ${data.description} `
             document.getElementById('planetDescription').innerHTML = planet_description.replace(/(.{80})/g, "$1<br>");
 
-          
+
         });
 
 }
