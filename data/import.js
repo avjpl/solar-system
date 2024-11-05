@@ -3,7 +3,7 @@ import { readFile } from 'node:fs/promises';
 import MongoUtil from './mongoUtil';
 
 const datasets = [
-  // 'employees',
+  'employees',
   'planets',
   'bio',
   'movies',
@@ -20,7 +20,6 @@ const client = new MongoUtil(
 );
 
 for await (const file of datasets) {
-  // const data = file;
   const data = JSON.parse(await readFile('./data/' + file + '.json', 'utf8'));
   const collection = await client.getCollection(file);
 
