@@ -16,7 +16,6 @@ window.onload = function() {
         })
         .then(function(data) {
             document.getElementById('hostname').innerHTML = `Pod - ${data.os} `
-          //  document.getElementById('environment').innerHTML = ` Env - ${data.env}  `
         });
 };
 

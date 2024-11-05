@@ -1,15 +1,11 @@
-let mongoose = require("mongoose");
 let server = require("./app");
 let chai = require("chai");
 let chaiHttp = require("chai-http");
 
-
-// Assertion 
 chai.should();
-chai.use(chaiHttp); 
+chai.use(chaiHttp);
 
 describe('Planets API Suite', () => {
-
     describe('Fetching Planet Details', () => {
         it('it should fetch a planet named Mercury', (done) => {
             let payload = {
@@ -55,6 +51,7 @@ describe('Planets API Suite', () => {
                 done();
               });
         });
+
         it('it should fetch a planet named Mars', (done) => {
             let payload = {
                 id: 4
@@ -146,12 +143,11 @@ describe('Planets API Suite', () => {
         // });
 
 
-    });        
+    });
 });
 
 //Use below test case to achieve coverage
 describe('Testing Other Endpoints', () => {
-
     describe('it should fetch OS Details', () => {
         it('it should fetch OS details', (done) => {
           chai.request(server)
@@ -186,5 +182,4 @@ describe('Testing Other Endpoints', () => {
               });
         });
     });
-
 });
