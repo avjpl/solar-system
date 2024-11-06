@@ -47,7 +47,7 @@ describe('Planets API Suite', () => {
               .end((err, res) => {
                     res.should.have.status(200);
                     res.body.should.have.property('id').eql(3);
-                    res.body.should.have.property('name').eql('Earth');
+                    res.body.should.have.property('name').eql('Earthly');
                 done();
               });
         });
